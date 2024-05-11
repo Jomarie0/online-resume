@@ -101,7 +101,7 @@ padding: 10px 20px 10px 30px;
 @media screen and (max-width: 320px) {
   .left, .bgpic, .res_frame, .bgpic-container {
     width: 90%;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
   }
   
   .bgpic {
