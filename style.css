@@ -98,8 +98,9 @@ padding: 10px 20px 10px 30px;
   padding-top: 1px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .left, .bgpic, .res_frame, .bgpic-container {
+    height: auto;
     width: 90%;
     /*margin: 0 auto;*/
   }
@@ -117,6 +118,7 @@ padding: 10px 20px 10px 30px;
   .right {
     max-height: 100%;
     width: 90%;
+    height: auto;
     margin: 10px auto;
     border-radius: 0px 0px 12px 12px ;
   }
@@ -124,6 +126,7 @@ padding: 10px 20px 10px 30px;
   .res_frame {
     width: 90%; 
     margin: 0 auto;
+    height: auto;
   }
 }
 
@@ -134,5 +137,6 @@ padding: 10px 20px 10px 30px;
   .left, .right, .bgpic, .res_frame {
     width: 90%;
     margin: 0 auto;
+    height: auto;
   }
 }
