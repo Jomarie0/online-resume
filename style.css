@@ -57,7 +57,8 @@ body{
 .title1 {
 font-size: 1.5em;
 font-weight: bold;
-line-height: 1.2; 
+line-height: 1.2;
+margin: 0px 50px 10px 20px;
 }
 
 .text1 {
@@ -67,7 +68,7 @@ text-indent: 1em;
 margin: 10px 30px 50px 30px;
 }
 tr,td{
-padding: 10px 20px 10px 10px;
+padding: 10px 20px 10px 30px;
 
 }
 .title2R{
@@ -80,7 +81,7 @@ padding: 10px 20px 10px 10px;
 
 .ul1, .li1{
   color: aliceblue;
-  margin: 10px 20px 5px 10px;
+  margin: 10px 20px 10px 10px;
 }
 .LRframe {
   display: flex;
@@ -107,7 +108,7 @@ padding: 10px 20px 10px 10px;
     max-width: 80%;
   }
 
-  .title1, .text1 , .ul1, .li1{
+  .title1, .text1 , .ul1,.li1{
     font-size: 1em;
     margin: 10px 5px;
     text-align: justify;
